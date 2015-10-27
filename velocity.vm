@@ -1,0 +1,9 @@
+#if($previousArticle)
+    $linkRenderer.update($previousArticle)
+    <h3>$linkRenderer.render()</h3>
+#end
+
+#if($nextArticle) 
+    $linkRenderer.update($nextArticle)
+    <h3>$linkRenderer.render()</h3>
+#end
